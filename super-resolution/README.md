@@ -8,7 +8,9 @@ For this self-supervised learning task we used the PascalVOC 2007 dataset.
 
 The first task was to create a dataset and a data-loader for images of 3 different sizes:
 
-X - 72x72x3, y_mid - 144x144x3, y_large - 288x288x3
+X - 72x72x3
+y_mid - 144x144x3
+y_large - 288x288x3
 
 An example of an image in all 3 sizes:
 
@@ -60,7 +62,7 @@ Below are plots of the train and validation loss, as well as the PSNR, for the D
 
 ![dilatednet-training](figures/dilatednet-training.png)
 
-And a few examples of the target images and the reconstructions:
+And a few examples of the target images and their reconstructions:
 
 ![dilatednet-results](figures/dilatednet-results.png)
 

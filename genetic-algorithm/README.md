@@ -18,4 +18,4 @@ Using a GA, we can find a simlar solution without prior assumptions regarding th
 
 ![fitness-generations](figures/fit-gen.png)
 
-![ga](figures/ga.png)
+![ga](figures/GA.png)
